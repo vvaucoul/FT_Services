@@ -26,4 +26,4 @@ sudo ./start.sh
 - PHPMyAdmin
 - Wordpress
 
-Each service run by a LoadBalancer (MetalLB)
+Each service run with a LoadBalancer (MetalLB)
