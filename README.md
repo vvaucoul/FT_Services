@@ -1,10 +1,22 @@
 # FT_Services
 
-## Note obtenue : 100/100
+Use of Kubernetes clusters and docker containers to manage several services.
+This project was done on MAC OS.
 
-Utilisation de Kubernetes ainsi que de docker pour pouvoir gérer plusieurs services.
+## Usage
 
-Liste des services gérés : 
+- Clone Repository
+```bash
+git clone https://github.com/vvaucoul/FT_Services && cd FT_Services
+```
+
+- Usage
+```bash
+sudo ./start.sh
+```
+
+
+###Managed Services 
 
 - Nginx
 - Grafana
@@ -14,4 +26,4 @@ Liste des services gérés :
 - PHPMyAdmin
 - Wordpress
 
-Chaque service est dirigé par un LoadBalancer (MetalLB)
+Each service run by a LoadBalancer (MetalLB)
