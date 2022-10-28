@@ -16,7 +16,7 @@ sudo ./start.sh
 ```
 
 
-###Managed Services 
+### Managed Services 
 
 - Nginx
 - Grafana
